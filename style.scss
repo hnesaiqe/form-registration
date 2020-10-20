@@ -1,0 +1,75 @@
+body {   
+     background-color: rgb(0, 0, 51);
+     margin-top: 57px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+.titre {
+    padding: 10px;
+}
+.registre_form {
+    padding: 15px;
+}
+
+.input { 
+    border: 0;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    color: white;
+}
+
+.container { 
+   
+    margin-right: 35%;
+    margin-left: 35%;
+
+}
+    
+.titre {
+text-align: center;
+background-color: rgb(93, 59, 161);
+color: white;
+
+
+}  
+    
+.registre_form {
+
+    background-color: white;
+    text-align: center;
+    
+
+}
+
+.btn {
+    background-color: yellow;
+    &--blue {
+        background-color : rgb(61, 25, 61);
+        color: white;
+        margin-top: 15px;
+        margin-left: 79%;
+        ;
+    }
+}
+.checkbox {
+    color: gray;
+    
+}
+a { 
+    text-decoration: none;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

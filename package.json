@@ -1,16 +1,14 @@
 {
-  "name": "nodejs-registration",
+  "name": "form-creditcard",
   "version": "1.0.0",
-  "description": "NodeJS Registration",
-  "main": "server.js",
+  "description": "Credit Card Form",
   "scripts": {
-    "start": "node server.js"
+    "start": "parcel index.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Saiqe Hne",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "creditcards": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "vue": "^2.6.12"
   }
 }
